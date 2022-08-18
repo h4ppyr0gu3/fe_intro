@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Custom Title shows up in browser tab</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">ToDo app</h1>   <!-- <body goes here/> -->
+      <form class="parent-container">
+        <div class="text">
+          <input class="input" id="input" placeholder="Item name"/>
+        </div>
+        <div class="buttons">
+          <button class="submit" id="submit">Submit</button>
+        </div>
+      </form>
+      <ul id="list">
+      </ul>
+    </div>
+<script>
+  console.log("this should be visible on page load in the console of the dev tools");
+</script>
+<script src="index.js" ></script>
+  </body>
+</html>

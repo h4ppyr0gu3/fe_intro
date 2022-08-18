@@ -1,0 +1,80 @@
+.parent-container {
+  display: flex;
+}
+
+.text {
+  display: inline-block;
+  width: 75%;
+}
+
+.buttons {
+  display: inline-block;
+  width: 25%;
+}
+
+.list-item {
+  font-size: 20px;
+  margin: 1rem;
+}
+
+.remove {
+  background-color: #ff6c5c;
+}
+
+.submit {
+  background-color: #5cff7e;
+}
+
+.item {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container {
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+button {
+  color: #101110;
+  margin: 0, 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+h1, .subtitle {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+ul {
+  width: 100%;
+  padding: 0px;
+}
+
+.input {
+  border-radius: 10px;
+  border: 3px solid #383838;
+  padding: 5px;
+  font-size: 20px;
+  width: 90%;
+  background-color: transparent;
+  color: #BFB0B0;
+}
+
+.input:focus {
+  border: 3px double transparent;
+}
+
+html {
+  background-color: #555;
+}
+
+
+
+
